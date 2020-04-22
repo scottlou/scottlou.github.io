@@ -1,0 +1,20 @@
+# Site settings
+author: Scott Louis Andrew Johnson
+title: 
+header-img: img/home-bg.png
+email: scottlajohnson92@gmail.com
+copyright_name: Scott Louis Andrew Johnson
+description: > # this means to ignore newlines until "baseurl:"
+  
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  scottlou
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
